@@ -29,7 +29,7 @@ class PlaylistTile extends StatelessWidget {
             .more_vert_outlined), //don't specify icon if you want 3 dot menu
         // color: Colors.blue,
         itemBuilder: (context) => [
-          PopupMenuItem(
+          const PopupMenuItem(
             value: 0,
             child: Text(
               "Edit",
